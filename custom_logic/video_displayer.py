@@ -27,7 +27,7 @@ def save_video(frames, video_path):
 
 
 class VideoDisplayer:
-    def __init__(self, video_path: str, tracking_run_id: int, is_save_video: bool):
+    def __init__(self, video_path: str, tracking_run_id: int, is_save_video: bool, temporary_parameter: int):
         self.video_path = video_path
         self.tracking_run_id = tracking_run_id
         self.is_save_video = is_save_video
